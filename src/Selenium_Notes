@@ -1,0 +1,84 @@
+Agenda
+
+
+
+1- What are the web elements?
+2- Types of Web elements
+3- Locators and its types
+4- Difference between findElement(), AND findElements();
+
+1- What are the web elements?
+Anything that is present on the web page is a webElement such as text box, button, etc.
+webElement represents and HTML element.
+The webElement are of two types, 1- single Elements, 2- Group Elements
+
+
+==============================
+Who is a Test Automation Engineer?
+The role is to DESIGN, BUILD, TEST, DEPLOY Test automation solution.
+
+ATLC Methodology
+Automation Testing Life Cycle
+1- Decision to automate test scripts
+2- Test automation tool acquisition
+3- Automated testing introduction process
+4- Test planning and development
+5- Test execution and management
+6- test program review and assessment
+
+Test Automation Strategy
+1- Prepare Strategy
+2- Finalize Tool
+3- Cost Calculation
+
+Testing Trends
+1- Industry knowledge
+2- Keep Updated
+3- Communication skills
+
+=============================
+3- Locators and its types,
+Locators, are the way to identify and HTML element on a web page
+
+type of locators as follow...
+id, name, LinkText/PartialLinkText, tagName, class name
+
+Customized Locators,
+CSS Selector -> Tag and ID, Tag and Class, Tag and Attribute, Tag, Class, Attribute
+
+Xpath -> Relative Xpath, Absolute Xpath.
+
+Step 1:
+- Identify the element uniquely using locators
+- Actions
+
+All you need to know about SELECT in selenium, https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/Select.html
+=====================
+Action Class
+Handling special mouse events are done using the advanced User Interactions API.
+It contains the Actions and the Actions classes that are needed when executing these events.
+
+Methods                             Descriptions
+clickAndHold()                      clicks without releasing at the current mouse location.
+contextClick()                      performs a context-click at the current mouse location.
+doubleClick()                       performs a double-click at the current mouse location.
+
+dragAndDrop(src,target)             this happens at the location of src element, moves to the location of the
+                                    target element, then release the mouse.
+                                    Parameters:
+                                    src-element to emulate button down at.
+                                    xOffset-horizontal move offset.
+                                    yOffset-vertical move offset.
+
+moveToElement(toElement)            Moves the mouse to the middle of the element.
+                                    Parameters:
+                                    toElement-element to move to.
+release()                           Release the depressed left mouse button at the current mouse location.
+slider()
+
+for drag and drop three methods needs to be in there,
+clickAndHold()
+moveToElement()
+release()
+
+
